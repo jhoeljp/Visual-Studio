@@ -101,7 +101,90 @@ namespace Hippo
             //-----IF STATEMENTS COMPARISONS
             //Console.WriteLine(getMax(2, 5, 8));
 
+
+            //-----SWITCH STATEMENTS
+            //Console.WriteLine(GetDay(10));
+
+
+            //-----FOR LOOP
+            //int[] luckyNumbers = {1,2,7,77,666,909 };
+            //for (int i=0;i<luckyNumbers.Length;i++) {
+            //    Console.WriteLine(luckyNumbers[i]);
+            //}
+
+
+            //-----get exponent method
+            //Console.WriteLine(GetPow(3, 2));
+
+            //-----2D ARRAYS
+            //int[,] grid = new int [2,5] {
+            //    {1,2,3,4,5},
+            //    {6,7,8,9,10 }
+            //};
+
+            //foreach (int row in grid)
+            //{
+            //    Console.WriteLine(row);
+            //}
+
+            Book book1 = new Book("Harry Potter - Philosopher Stone", "JK Rowling",350);
+            //book1.title = "Harry Potter - Philosopher Stone";
+            //book1.author = "JK Rowling";
+            //book1.pages = 350;
+
+            
+
+            Book book2 = new Book("Harry Potter - Chamber of Secrets", "JK Rowling",200);
+            //book2.title = "Harry Potter - Chamber of Secrets";
+            //book2.author = "JK Rowling";
+            //book2.pages = 200;
+
+            book2.print_info();
+
+
         }
+
+        //static int GetPow(int baseNum, int powNum) {
+        //    int result = 1;
+        //    for (int i=0;i<powNum;i++) {
+        //        result = result * baseNum;
+        //    }
+        //    return result;
+        //}
+
+        //static string GetDay(int day) {
+        //    string dayName = "";
+
+        //    switch (day)
+        //    {
+        //        case 0:
+        //            dayName = "Sunday";
+        //            break;
+        //        case 1:
+        //            dayName = "Monday";
+        //            break;
+        //        case 2:
+        //            dayName = "Tuesday";
+        //            break;
+        //        case 3:
+        //            dayName = "Wednesday";
+        //            break;
+        //        case 4:
+        //            dayName = "Thursday";
+        //            break;
+        //        case 5:
+        //            dayName = "Friday";
+        //            break;
+        //        case 6:
+        //            dayName = "Saturday";
+        //            break;
+        //        default:
+        //            dayName = "Invalid Day Number";
+        //            break;
+        //    }
+
+        //    return dayName;
+        //}
 
         //static int getMax(int num1, int num2, int num3) {
 
